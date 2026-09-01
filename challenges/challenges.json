@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "skill": "Python",
+    "level": "Beginner",
+    "title": "Find the Largest Number",
+    "description": "Write a Python program to find the largest number in a list."
+  },
+  {
+    "id": 2,
+    "skill": "Python",
+    "level": "Intermediate",
+    "title": "Student Marks Analyzer",
+    "description": "Create a program to calculate average marks and find the highest scorer."
+  },
+  {
+    "id": 3,
+    "skill": "SQL",
+    "level": "Beginner",
+    "title": "Student Records",
+    "description": "Write an SQL query to display students who scored more than 70 marks."
+  },
+  {
+    "id": 4,
+    "skill": "Debugging",
+    "level": "Beginner",
+    "title": "Fix the Python Code",
+    "description": "Find and fix errors in a small Python program."
+  }
+]
