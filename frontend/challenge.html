@@ -10,7 +10,10 @@
 <body>
 
 <nav class="topbar">
-    <div class="logo">Skill<span>Shadow</span></div>
+
+    <div class="logo">
+        Skill<span>Shadow</span>
+    </div>
 
     <div class="nav-links">
         <a href="dashboard.html">Dashboard</a>
@@ -18,36 +21,48 @@
         <a href="result.html">Results</a>
         <div class="avatar">A</div>
     </div>
+
 </nav>
+
 
 <main class="challenge-page">
 
     <div class="challenge-header">
-        <p class="tag">REAL-WORLD CHALLENGE</p>
-        <h1>Python Debugging Challenge</h1>
+
+        <p class="tag">
+            REAL-WORLD CHALLENGE
+        </p>
+
+        <h1>
+            Python Debugging Challenge
+        </h1>
 
         <div class="badges">
             <span>Intermediate</span>
             <span>Python</span>
             <span>Debugging</span>
         </div>
+
     </div>
+
 
     <section class="challenge-box">
 
         <h2>🎯 Challenge</h2>
 
         <p>
-            A company has a Python program that calculates employee
-            salary information. However, the program is producing
-            incorrect results.
+            A company has a Python program that calculates
+            the average employee salary.
         </p>
 
         <p>
-            Find the errors and provide a corrected solution.
+            The program is producing an incorrect result.
+            Find the error and provide a corrected solution.
         </p>
 
+
         <div class="code-box">
+
 <pre>
 employees = [45000, 52000, 60000]
 
@@ -60,14 +75,24 @@ average = total / len(employees)
 
 print("Average salary:", average)
 </pre>
+
         </div>
 
-        <h3>Your Response</h3>
 
-        <textarea id="answer"
-            placeholder="Write your explanation or corrected code here..."></textarea>
+        <h3>
+            Your Response
+        </h3>
 
-        <button onclick="submitChallenge()" class="primary-btn">
+        <textarea
+            id="answer"
+            placeholder="Explain the error and write your corrected code here..."
+        ></textarea>
+
+
+        <button
+            onclick="submitChallenge()"
+            class="primary-btn"
+        >
             Submit Challenge →
         </button>
 
@@ -75,6 +100,8 @@ print("Average salary:", average)
 
 </main>
 
+
 <script src="script.js"></script>
+
 </body>
 </html>

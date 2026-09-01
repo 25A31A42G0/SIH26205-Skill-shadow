@@ -1,5 +1,4 @@
 function submitChallenge() {
-
     const answer = document.getElementById("answer").value.trim();
 
     if (answer === "") {
@@ -7,12 +6,9 @@ function submitChallenge() {
         return;
     }
 
-    // Temporary mock analysis
-    // Later this will call Member 2's AI API.
-
+    // Save the answer temporarily
     localStorage.setItem("userAnswer", answer);
 
-    alert("Challenge submitted! AI analysis completed.");
-
+    // Move to result page
     window.location.href = "result.html";
 }
