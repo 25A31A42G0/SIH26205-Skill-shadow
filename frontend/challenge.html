@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge | Skill Shadow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="topbar">
+    <div class="logo">Skill<span>Shadow</span></div>
+
+    <div class="nav-links">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="challenge.html">Challenges</a>
+        <a href="result.html">Results</a>
+        <div class="avatar">A</div>
+    </div>
+</nav>
+
+<main class="challenge-page">
+
+    <div class="challenge-header">
+        <p class="tag">REAL-WORLD CHALLENGE</p>
+        <h1>Python Debugging Challenge</h1>
+
+        <div class="badges">
+            <span>Intermediate</span>
+            <span>Python</span>
+            <span>Debugging</span>
+        </div>
+    </div>
+
+    <section class="challenge-box">
+
+        <h2>🎯 Challenge</h2>
+
+        <p>
+            A company has a Python program that calculates employee
+            salary information. However, the program is producing
+            incorrect results.
+        </p>
+
+        <p>
+            Find the errors and provide a corrected solution.
+        </p>
+
+        <div class="code-box">
+<pre>
+employees = [45000, 52000, 60000]
+
+total = 0
+
+for salary in employees:
+    total = salary
+
+average = total / len(employees)
+
+print("Average salary:", average)
+</pre>
+        </div>
+
+        <h3>Your Response</h3>
+
+        <textarea id="answer"
+            placeholder="Write your explanation or corrected code here..."></textarea>
+
+        <button onclick="submitChallenge()" class="primary-btn">
+            Submit Challenge →
+        </button>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

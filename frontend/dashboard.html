@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Skill Shadow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="topbar">
+    <div class="logo">Skill<span>Shadow</span></div>
+
+    <div class="nav-links">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="challenge.html">Challenges</a>
+        <a href="result.html">Results</a>
+        <div class="avatar">A</div>
+    </div>
+</nav>
+
+<main class="dashboard">
+
+    <div class="welcome">
+        <div>
+            <p class="tag">STUDENT DASHBOARD</p>
+            <h1>Welcome back, Akshara 👋</h1>
+            <p>Let's discover what you can actually do.</p>
+        </div>
+
+        <a href="challenge.html" class="primary-btn">
+            Take Challenge →
+        </a>
+    </div>
+
+    <div class="stats">
+
+        <div class="stat-card">
+            <small>OVERALL SKILL</small>
+            <h2>72%</h2>
+            <p>↑ 8% this month</p>
+        </div>
+
+        <div class="stat-card">
+            <small>JOB READINESS</small>
+            <h2>64%</h2>
+            <p>Data Analyst</p>
+        </div>
+
+        <div class="stat-card">
+            <small>CHALLENGES</small>
+            <h2>12</h2>
+            <p>8 completed</p>
+        </div>
+
+        <div class="stat-card">
+            <small>SKILL GAPS</small>
+            <h2>3</h2>
+            <p>Need improvement</p>
+        </div>
+
+    </div>
+
+    <div class="dashboard-grid">
+
+        <section class="panel">
+            <div class="panel-header">
+                <h2>Your Skills</h2>
+                <span>Current Level</span>
+            </div>
+
+            <div class="skill">
+                <div>
+                    <span>Python</span>
+                    <b>82%</b>
+                </div>
+                <div class="bar">
+                    <div style="width:82%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div>
+                    <span>Problem Solving</span>
+                    <b>71%</b>
+                </div>
+                <div class="bar">
+                    <div style="width:71%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div>
+                    <span>Debugging</span>
+                    <b>48%</b>
+                </div>
+                <div class="bar">
+                    <div style="width:48%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div>
+                    <span>SQL</span>
+                    <b>42%</b>
+                </div>
+                <div class="bar">
+                    <div style="width:42%"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div>
+                    <span>Statistics</span>
+                    <b>51%</b>
+                </div>
+                <div class="bar">
+                    <div style="width:51%"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel readiness">
+            <h2>Job Readiness</h2>
+            <p>Target Role</p>
+
+            <h3>Data Analyst</h3>
+
+            <div class="readiness-circle">
+                <strong>64%</strong>
+                <small>READY</small>
+            </div>
+
+            <p class="warning">
+                Improve SQL and Statistics to increase your readiness.
+            </p>
+
+            <a href="result.html" class="secondary-btn">
+                View Skill Gap →
+            </a>
+        </section>
+
+    </div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
