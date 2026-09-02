@@ -1,0 +1,19 @@
+{
+  "Data Analyst": {
+    "Python": 70,
+    "SQL": 70,
+    "Excel": 60,
+    "Statistics": 60
+  },
+  "Web Developer": {
+    "HTML": 70,
+    "CSS": 70,
+    "JavaScript": 70,
+    "Python": 50
+  },
+  "Python Developer": {
+    "Python": 80,
+    "SQL": 50,
+    "Git": 60
+  }
+}
