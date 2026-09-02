@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results | Skill Shadow</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Results | Skill Shadow
+    </title>
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
+
 <body>
+
 
 <nav class="topbar">
 
@@ -15,185 +26,192 @@
         Skill<span>Shadow</span>
     </div>
 
+
     <div class="nav-links">
-        <a href="dashboard.html">Dashboard</a>
-        <a href="challenge.html">Challenges</a>
-        <a href="result.html">Results</a>
-        <div class="avatar">A</div>
+
+        <a href="dashboard.html">
+            Dashboard
+        </a>
+
+        <a href="challenge.html">
+            Challenges
+        </a>
+
+        <a href="result.html">
+            Results
+        </a>
+
+        <div class="avatar">
+            A
+        </div>
+
     </div>
 
 </nav>
 
 
+
 <main class="result-page">
 
-    <!-- Title -->
-    <section class="result-title">
+
+    <div class="result-header">
 
         <p class="tag">
-            AI ANALYSIS COMPLETE
+            AI SKILL ANALYSIS
         </p>
+
 
         <h1>
-            Your Skill Analysis
+            Your Challenge Result
         </h1>
 
+
         <p>
-            Here's what Skill Shadow discovered from your performance.
+            Here's a quick analysis of your submitted response.
         </p>
 
-    </section>
+    </div>
 
 
-    <!-- Overall Score -->
-    <section class="overall">
 
-        <div>
+    <section class="result-grid">
+
+
+        <!-- Score -->
+        <div class="result-card score-card">
 
             <small>
-                OVERALL PERFORMANCE
+                CHALLENGE SCORE
             </small>
 
-            <h2>
-                68%
-            </h2>
 
-        </div>
+            <div class="result-circle">
 
-        <div class="result-message">
+                <strong>
+                    78%
+                </strong>
 
-            Good progress! Your Python fundamentals are strong,
-            but debugging needs improvement.
+                <span>
+                    GOOD
+                </span>
 
-        </div>
-
-    </section>
-
-
-    <!-- Skill Breakdown -->
-    <section class="panel">
-
-        <h2>
-            Skill Breakdown
-        </h2>
-
-
-        <div class="result-skill">
-
-            <span>Python</span>
-            <strong>82%</strong>
-
-            <div class="bar">
-                <div style="width:82%"></div>
             </div>
 
-        </div>
 
-
-        <div class="result-skill">
-
-            <span>Problem Solving</span>
-            <strong>71%</strong>
-
-            <div class="bar">
-                <div style="width:71%"></div>
-            </div>
+            <p>
+                You demonstrated a good understanding
+                of Python debugging.
+            </p>
 
         </div>
 
 
-        <div class="result-skill">
 
-            <span>Debugging</span>
-            <strong>48%</strong>
-
-            <div class="bar">
-                <div style="width:48%"></div>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Strengths and Weaknesses -->
-    <section class="two-column">
-
-        <div class="panel">
+        <!-- Analysis -->
+        <div class="result-card">
 
             <h2>
-                ✅ Strengths
+                Skill Analysis
             </h2>
 
-            <ul class="list">
 
-                <li>
-                    Strong Python fundamentals
-                </li>
+            <div class="analysis-item">
 
-                <li>
-                    Good logical thinking
-                </li>
+                <span>
+                    Python
+                </span>
 
-                <li>
-                    Understands basic programming concepts
-                </li>
+                <b>
+                    Strong
+                </b>
 
-            </ul>
-
-        </div>
+            </div>
 
 
-        <div class="panel">
+            <div class="analysis-item">
 
-            <h2>
-                ⚠️ Improve
-            </h2>
-
-            <ul class="list">
-
-                <li>
+                <span>
                     Debugging
-                </li>
+                </span>
 
-                <li>
-                    Error identification
-                </li>
+                <b>
+                    Improving
+                </b>
 
-                <li>
-                    Code tracing
-                </li>
+            </div>
 
-            </ul>
 
+            <div class="analysis-item">
+
+                <span>
+                    Problem Solving
+                </span>
+
+                <b>
+                    Good
+                </b>
+
+            </div>
+
+
+            <div class="analysis-item">
+
+                <span>
+                    Code Understanding
+                </span>
+
+                <b>
+                    Good
+                </b>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- Submitted Answer -->
+
+    <section class="submitted-answer">
+
+        <h2>
+            Your Submitted Response
+        </h2>
+
+
+        <div id="submittedAnswer">
+            Loading your response...
         </div>
 
     </section>
 
 
-    <!-- Recommendation -->
-    <section class="panel recommendation">
 
-        <p class="tag">
-            NEXT RECOMMENDATION
-        </p>
+    <div class="result-buttons">
 
-        <h2>
-            🎯 Improve your Debugging Skills
-        </h2>
-
-        <p>
-            Complete more debugging challenges to increase
-            your practical problem-solving ability.
-        </p>
-
-        <a href="challenge.html" class="primary-btn">
-            Take Next Challenge →
+        <a href="challenge.html"
+           class="primary-btn">
+            Try Another Challenge →
         </a>
 
-    </section>
+
+        <a href="dashboard.html"
+           class="secondary-btn">
+            Back to Dashboard
+        </a>
+
+    </div>
+
 
 </main>
 
+
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
